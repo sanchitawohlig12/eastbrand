@@ -18,6 +18,7 @@
               <v-img class="img" src="/services/first.jpeg"></v-img>
             </div>
             <v-btn class="one">Read More</v-btn>
+            <span class="title">Bespoke Construction</span>
           </v-card>
         </v-col>
 
@@ -27,6 +28,7 @@
               <v-img class="img" src="/services/first.jpeg"></v-img>
             </div>
             <v-btn class="one">Read More</v-btn>
+            <span class="title">Bespoke Interiors</span>
           </v-card>
         </v-col>
         <v-col cols="12" md="6">
@@ -35,6 +37,7 @@
               <v-img class="img" src="/services/first.jpeg"></v-img>
             </div>
             <v-btn class="one">Read More</v-btn>
+            <span class="title">Bespoke Heritage</span>
           </v-card>
         </v-col>
       </v-row>
@@ -97,6 +100,7 @@ export default {}
   bottom: 350px;
   font-size: 25px;
   color: orange;
+  font-weight: bold;
 
   /* background-image: linear-gradient(orange, orange); */
 }
