@@ -1,12 +1,8 @@
 <template>
   <div>
-    <br />
-    <br />
-    <Home />
-    <br />
-    <Home1 />
+    <br /><br />
 
-    <Home3 />
+    <Beskit />
   </div>
 </template>
 

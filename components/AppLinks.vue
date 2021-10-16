@@ -16,14 +16,15 @@
 
 .nav-item {
   margin: 0 10px;
+  margin-top: 40px;
 }
 
 .nav-item a {
   text-decoration: none;
-  color: black;
+  color: white;
   font-size: 20px;
   padding: 25px;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 .nav-item a:hover,
@@ -38,6 +39,13 @@
   .nav-item {
     margin-top: 16px;
     margin-bottom: 16px;
+  }
+  .nav-item a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 25px;
+    /* text-decoration: underline; */
   }
 }
 

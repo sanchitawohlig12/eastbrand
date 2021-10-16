@@ -2,11 +2,7 @@
   <div>
     <br />
     <br />
-    <Home />
-    <br />
-    <Home1 />
-
-    <Home3 />
+    <Besbat />
   </div>
 </template>
 

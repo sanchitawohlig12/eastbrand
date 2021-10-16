@@ -1,112 +1,26 @@
 <template>
   <div>
     <div v-if="!$vuetify.breakpoint.smAndDown">
-      <v-row no-gutters>
-        <v-col cols="12" md="4">
-          <v-card>
-            <div class="inner">
-              <v-img class="img" src="/services/first.jpeg"></v-img>
-            </div>
-
-            <v-btn class="two">Read More</v-btn>
-          </v-card>
-        </v-col>
-        <v-col cols="12" md="4">
-          <v-card>
-            <div class="inner">
-              <v-img class="img" src="/services/first.jpeg"></v-img>
-            </div>
-            <v-btn class="two">Read More</v-btn>
-          </v-card>
-        </v-col>
-
-        <v-col cols="12" md="4">
-          <v-card>
-            <div class="inner">
-              <v-img class="img" src="/services/first.jpeg"></v-img>
-            </div>
-            <v-btn class="two">Read More</v-btn>
-          </v-card>
-        </v-col>
-        <v-col cols="12" md="4">
-          <v-card>
-            <div class="inner">
-              <v-img class="img" src="/services/first.jpeg"></v-img>
-            </div>
-            <v-btn class="two">Read More</v-btn>
-          </v-card>
-        </v-col>
-        <v-col cols="12" md="4">
-          <v-card>
-            <div class="inner">
-              <v-img class="img" src="/services/first.jpeg"></v-img>
-            </div>
-            <v-btn class="two">Read More</v-btn>
-          </v-card>
-        </v-col>
-        <v-col cols="12" md="4">
-          <v-card>
-            <div class="inner">
-              <v-img class="img" src="/services/first.jpeg"></v-img>
-            </div>
-            <v-btn class="two">Read More</v-btn>
-          </v-card>
-        </v-col>
-      </v-row>
+      <img class="home" src="/ourservices/desktop.jpg" alt="" />
     </div>
     <div v-if="$vuetify.breakpoint.smAndDown">
-      <v-row no-gutters>
-        <v-col cols="12" md="6">
-          <v-card>
-            <div class="inner">
-              <v-img class="img" src="/services/first.jpeg"></v-img>
-            </div>
-
-            <v-btn class="one1">Read More</v-btn>
-          </v-card>
-        </v-col>
-        <v-col cols="12" md="6">
-          <v-card>
-            <div class="inner">
-              <v-img class="img" src="/services/first.jpeg"></v-img>
-            </div>
-            <v-btn class="one1">Read More</v-btn>
-          </v-card>
-        </v-col>
-
-        <v-col cols="12" md="6">
-          <v-card>
-            <div class="inner">
-              <v-img class="img" src="/services/first.jpeg"></v-img>
-            </div>
-            <v-btn class="one1">Read More</v-btn>
-          </v-card>
-        </v-col>
-        <v-col cols="12" md="6">
-          <v-card>
-            <div class="inner">
-              <v-img class="img" src="/services/first.jpeg"></v-img>
-            </div>
-            <v-btn class="one1">Read More</v-btn>
-          </v-card>
-        </v-col>
-        <v-col cols="12" md="6">
-          <v-card>
-            <div class="inner">
-              <v-img class="img" src="/services/first.jpeg"></v-img>
-            </div>
-            <v-btn class="one1">Read More</v-btn>
-          </v-card>
-        </v-col>
-        <v-col cols="12" md="6">
-          <v-card>
-            <div class="inner">
-              <v-img class="img" src="/services/first.jpeg"></v-img>
-            </div>
-            <v-btn class="one1">Read More</v-btn>
-          </v-card>
-        </v-col>
-      </v-row>
+      <img class="" src="/ourservices/mobile.jpg" alt="" />
+    </div>
+    <div>
+      <p>
+        Ace Worldwide Limited create a truly unique project for our clientele.
+        If their has been a place in your life you have visited or moment you
+        wish to capture that had significant meaning or impact on you or your
+        family's lives, then we would discuss the experience with you to create
+        a piece that embraces and reflects on the event and moment captured.
+        Once discussed we would provide our professional thoughts and opinion,
+        our design team would then prepare drawings to your exact requirements.
+        We would demonstrate the various materials that we believe would work
+        seamlessly with your vision. Our Unique projects are as individual as
+        for whom they are created. These Unique projects are designed and
+        created to tell a story in time of ones unforgettable experience or
+        moment.
+      </p>
     </div>
   </div>
 </template>
@@ -116,24 +30,4 @@ export default {}
 </script>
 
 <style>
-.two {
-  position: relative;
-  left: 35%;
-  bottom: 200px;
-}
-
-.inner {
-  overflow: hidden;
-}
-.img {
-  transition: all 1.5s ease;
-}
-.inner:hover .img {
-  transform: scale(1.1);
-}
-.one1 {
-  position: relative;
-  left: 35%;
-  bottom: 200px;
-}
 </style>

@@ -36,8 +36,8 @@ header {
   display: grid;
   grid-template: 60px / auto 1fr;
   align-items: center;
-  background-color: white;
-  /* /* border: rgb(218, 125, 5) 5px solid; */
+  background-color: black;
+  height: 165%;
 }
 
 .app-links {
@@ -84,6 +84,8 @@ header {
 @media (max-width: 991px) {
   header {
     padding: 0 16px;
+    background-color: white;
+    height: 160%;
   }
   header:nth-child {
     justify-self: end !important;

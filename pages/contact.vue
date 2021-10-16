@@ -1,6 +1,11 @@
 <template>
   <div>
+    <br />
+    <br />
     <Contact />
+    <br />
+
+    <Contact1 />
     <br />
     <br />
 

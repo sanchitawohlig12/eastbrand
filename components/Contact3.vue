@@ -2,8 +2,8 @@
   <div>
     <div v-if="!$vuetify.breakpoint.smAndDown" class="footer">
       <v-row>
-        <!-- <v-col cols="12" md="1"></v-col> -->
-        <v-spacer></v-spacer>
+        <v-col cols="12" md="1"></v-col>
+
         <v-col cols="12" md="4" class="col">
           <div class="Ace">
             <img class="logo" src="/services/ACE.svg" alt="" />
@@ -16,6 +16,7 @@
             </p>
           </div>
         </v-col>
+        <v-col cols="12" md="2"></v-col>
         <v-col cols="12" md="4" class="col">
           Information
           <br />
@@ -51,7 +52,8 @@
             </v-col> -->
           </v-row>
         </v-col>
-        <v-col cols="12" md="4" class="col">
+        <v-col cols="12" md="1"></v-col>
+        <!-- <v-col cols="12" md="4" class="col">
           Our Office
           <br />
           <br />
@@ -70,15 +72,12 @@
               <v-icon style="color: orange"> mdi-email</v-icon>
               info@aceworldwide.co.uk
             </div>
-            <!-- <div class="office">
-              <v-icon style="color: orange"> mdi-clock-time-nine</v-icon>
-              Mon - Sat: 9:00 - 18:00
-            </div> -->
+           
           </div>
-        </v-col>
+        </v-col> -->
       </v-row>
     </div>
-    <div v-if="$vuetify.breakpoint.smAndDown" class="footer1">
+    <div v-if="$vuetify.breakpoint.smAndDown" class="footer2">
       <v-row>
         <!-- <v-col cols="12" md="1"></v-col> -->
 
@@ -129,7 +128,7 @@
             </v-row>
           </div>
         </v-col>
-        <v-col cols="12" md="12" class="col">
+        <!-- <v-col cols="12" md="12" class="col">
           <div class="Ace1">
             Our Office
             <br />
@@ -149,13 +148,10 @@
                 <v-icon style="color: orange"> mdi-email</v-icon>
                 info@aceworldwide.co.uk
               </div>
-              <!-- <div class="office">
-                <v-icon style="color: orange"> mdi-clock-time-nine</v-icon>
-                Mon - Sat: 9:00 - 18:00
-              </div> -->
+             
             </div>
           </div>
-        </v-col>
+        </v-col> -->
       </v-row>
     </div>
   </div>
@@ -171,9 +167,9 @@ export default {}
   height: 250px;
   width: 1140px;
 }
-.footer1 {
+.footer2 {
   background-color: rgb(70, 68, 68);
-  height: 900px;
+  height: 500px;
   width: 375px;
 }
 .col {
