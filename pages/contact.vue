@@ -6,8 +6,6 @@
     <br />
 
     <Contact1 />
-    <br />
-    <br />
 
     <Contact3 />
   </div>
