@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="background-color: black">
     <div v-if="!$vuetify.breakpoint.smAndDown">
       <img class="home" src="/contact/desktop.jpg" alt="" />
     </div>
@@ -7,10 +7,13 @@
       <img class="" src="/contact/mobile.jpg" alt="" />
     </div>
     <div>
-      <p style="text-align: center">
+      <br />
+
+      <p style="text-align: center; color: white">
         Should you wish to contact us and discuss an upcoming project then we
         would be delighted to hear from you.
       </p>
+      <br />
     </div>
   </div>
 </template>

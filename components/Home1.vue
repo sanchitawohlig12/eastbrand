@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="background-color: black">
     <div v-if="!$vuetify.breakpoint.smAndDown">
       <v-row no-gutters>
         <v-row no-gutters>

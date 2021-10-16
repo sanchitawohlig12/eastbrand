@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="background-color: black">
     <div v-if="!$vuetify.breakpoint.smAndDown">
       <img class="home" src="/ourservices/desktop.jpg" alt="" />
     </div>
@@ -7,7 +7,8 @@
       <img class="" src="/ourservices/mobile.jpg" alt="" />
     </div>
     <div>
-      <p>
+      <br />
+      <p style="color: white">
         Ace Worldwide Limited create a truly unique project for our clientele.
         If their has been a place in your life you have visited or moment you
         wish to capture that had significant meaning or impact on you or your
@@ -21,6 +22,7 @@
         created to tell a story in time of ones unforgettable experience or
         moment.
       </p>
+      <br />
     </div>
   </div>
 </template>

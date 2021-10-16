@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="background-color: black">
     <div v-if="!$vuetify.breakpoint.smAndDown">
       <img class="home" src="/home/home.jpg" alt="" />
     </div>
@@ -8,7 +8,7 @@
     </div>
     <div>
       <br />
-      <p>
+      <p style="color: white">
         Ace Worldwide Limited creates exquisite homes and projects designed to
         enchant and Inspire, methodically approached and completed meticulously
         where every detail has been considered. Our complete offering of
@@ -17,6 +17,7 @@
         professional and experienced teams work seamlessly together to produce
         our uncompromising quality and exacting standards.
       </p>
+      <br />
     </div>
   </div>
 </template>

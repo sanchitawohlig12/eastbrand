@@ -163,12 +163,12 @@ export default {}
 
 <style>
 .footer {
-  background-color: rgb(70, 68, 68);
+  background-color: black;
   height: 250px;
   width: 1140px;
 }
 .footer2 {
-  background-color: rgb(70, 68, 68);
+  background-color: black;
   height: 500px;
   width: 375px;
 }
