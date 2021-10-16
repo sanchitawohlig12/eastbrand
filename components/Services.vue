@@ -4,7 +4,7 @@
       <img class="home" src="/ourservices/desktop.jpg" alt="" />
     </div>
     <div v-if="$vuetify.breakpoint.smAndDown">
-      <img class="" src="/ourservices/mobile.jpg" alt="" />
+      <img class="home" src="/ourservices/mobile.jpg" alt="" />
     </div>
     <div>
       <br />

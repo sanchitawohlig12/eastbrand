@@ -173,7 +173,7 @@ export default {}
 }
 .footer1 {
   background-color: black;
-  height: 900px;
+  height: 100%;
   width: 375px;
 }
 .col {
