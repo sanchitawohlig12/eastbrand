@@ -8,7 +8,7 @@
     </div>
     <div>
       <br />
-      <p style="color: white">
+      <p style="color: orange">
         Ace Worldwide Limited creates exquisite homes and projects designed to
         enchant and Inspire, methodically approached and completed meticulously
         where every detail has been considered. Our complete offering of

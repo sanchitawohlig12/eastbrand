@@ -1,6 +1,6 @@
 <template>
   <ul class="nav-list">
-    <li class="nav-item"><nuxt-link to="/">Home</nuxt-link></li>
+    <li class="nav-item"><nuxt-link to="/home">Home</nuxt-link></li>
     <li class="nav-item"><nuxt-link to="/services">Our Services</nuxt-link></li>
     <li class="nav-item"><nuxt-link to="/about">About Us</nuxt-link></li>
     <li class="nav-item"><nuxt-link to="/contact">Contact Us</nuxt-link></li>
@@ -31,6 +31,12 @@
 .nav-item a:active {
   color: orange;
 }
+a.nuxt-link-active {
+  color: orange;
+}
+/* .nav-item a:visited {
+  color: orange;
+} */
 
 @media (max-width: 991px) {
   .nav-list {

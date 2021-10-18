@@ -8,7 +8,7 @@
     </div>
     <div>
       <br />
-      <p style="color: white">
+      <p style="color: orange">
         Ace Worldwide Limited create a truly unique project for our clientele.
         If their has been a place in your life you have visited or moment you
         wish to capture that had significant meaning or impact on you or your

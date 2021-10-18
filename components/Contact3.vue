@@ -24,13 +24,19 @@
           <v-row>
             <v-col cols="12" md="12">
               <div class="info">
-                <p>> <span>Home</span></p>
+                <nuxt-link style="text-decoration: none" to="/home"
+                  ><p>> <span class="sp">Home</span></p></nuxt-link
+                >
               </div>
               <div class="info">
-                <p>> <span>Our Services</span></p>
+                <nuxt-link style="text-decoration: none" to="/services">
+                  <p>> <span class="sp">Our Services</span></p></nuxt-link
+                >
               </div>
               <div class="info">
-                <p>> <span>About Us</span></p>
+                <nuxt-link style="text-decoration: none" to="/about">
+                  <p>> <span class="sp">About Us</span></p></nuxt-link
+                >
               </div>
               <!-- <div class="info">
                 <p>> <span>Contact Us</span></p>
@@ -101,16 +107,16 @@
             <v-row>
               <v-col cols="12" md="6">
                 <div class="info">
-                  <p>> <span>Home</span></p>
+                  <p>> <span class="sp">Home</span></p>
                 </div>
                 <div class="info">
-                  <p>> <span>Our Services</span></p>
+                  <p>> <span class="sp">Our Services</span></p>
                 </div>
                 <div class="info">
-                  <p>> <span>About Us</span></p>
+                  <p>> <span class="sp">About Us</span></p>
                 </div>
                 <div class="info">
-                  <p>> <span>Contact Us</span></p>
+                  <p>> <span class="sp">Contact Us</span></p>
                 </div>
                 <!-- <div class="info">
                   <p>> <span>Our Project</span></p>

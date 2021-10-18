@@ -1,15 +1,17 @@
 <template>
-  <div>
+  <div style="background-color: black">
     <div v-if="!$vuetify.breakpoint.smAndDown">
       <img class="home" src="/about/desktop.jpg" alt="" />
     </div>
     <div v-if="$vuetify.breakpoint.smAndDown">
       <img class="home" src="/about/mobile.jpg" alt="" />
     </div>
-    <div>
-      <h1 style="text-align: center; font-weight: bold">Our Company</h1>
+    <div style="background-color: black">
+      <h1 style="text-align: center; font-weight: bold; color: orange">
+        Our Company
+      </h1>
       <br />
-      <v-divider dark color="black"></v-divider>
+      <v-divider dark color="orange"></v-divider>
       <br />
       <p class="about">
         Ace Worldwide Limited was founded to provide a superior-prime luxurious
@@ -41,6 +43,8 @@
         ourselves is a true testament as to the relationships we hold with our
         clients and their assurance and confidence in our aptitude to deliver.
       </p>
+      <br />
+      <br />
     </div>
   </div>
 </template>
@@ -51,6 +55,6 @@ export default {}
 
 <style>
 .about {
-  color: rgb(90, 88, 88);
+  color: orange;
 }
 </style>

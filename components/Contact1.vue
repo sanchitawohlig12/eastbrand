@@ -14,7 +14,7 @@
               <v-icon style="color: orange">mdi-map-marker</v-icon>
 
               <span class="con"
-                >Ace Worldwide Limited,6 Roedean Avenue,Enfield,EN3 5QJ</span
+                >Ace Worldwide Limited,6 Roedean Avenue, Enfield, EN3 5QJ</span
               >
             </div>
             <div class="office">
