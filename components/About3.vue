@@ -1,5 +1,6 @@
 <template>
-  <div>
+  <div style="background-color: black">
+    
     <div v-if="!$vuetify.breakpoint.smAndDown" class="footer">
       <v-row>
         <!-- <v-col cols="12" md="1"></v-col> -->

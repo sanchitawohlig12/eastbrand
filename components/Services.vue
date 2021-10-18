@@ -6,9 +6,9 @@
     <div v-if="$vuetify.breakpoint.smAndDown">
       <img class="home" src="/ourservices/mobile.jpg" alt="" />
     </div>
-    <div>
+    <div class="servicecontent">
       <br />
-      <p style="color: orange">
+      <p style="color: orange; text-align: center; font-size: 20px">
         Ace Worldwide Limited create a truly unique project for our clientele.
         If their has been a place in your life you have visited or moment you
         wish to capture that had significant meaning or impact on you or your
@@ -32,4 +32,15 @@ export default {}
 </script>
 
 <style>
+.servicecontent {
+  margin-left: 170px;
+  height: 100%;
+  width: 75%;
+}
+@media (max-width: 991px) {
+  .servicecontent {
+    margin-left: 20px;
+    width: 90%;
+  }
+}
 </style>

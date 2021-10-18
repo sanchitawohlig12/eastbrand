@@ -1,11 +1,9 @@
 <template>
-  <div style="background-color: black">
+  <div>
     <br />
     <br />
     <Besint />
-    <br />
-    <br />
-    <br />
+
     <Home3 />
   </div>
 </template>

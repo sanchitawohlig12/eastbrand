@@ -156,6 +156,7 @@
         </v-row>
       </v-row>
     </div>
+    <v-divider dark color="orange"></v-divider>
   </div>
 </template>
 
@@ -167,7 +168,7 @@ export default {}
 .two {
   position: relative;
   left: 35%;
-  bottom: 250px;
+  bottom: 300px;
 }
 
 .inner {
@@ -190,12 +191,13 @@ export default {}
 .title3 {
   position: relative;
   /* right: 10%; */
-  left: 7%;
-  bottom: 300px;
+  left: 10%;
+  bottom: 350px;
   font-size: 25px;
   color: black;
   text-shadow: 2px 2px white;
   font-weight: bold;
+  background-color: white;
 
   /* background-image: linear-gradient(orange, orange); */
 }
@@ -208,6 +210,7 @@ export default {}
   color: black;
   text-shadow: 2px 2px white;
   font-weight: bold;
+  background-color: white;
 
   /* background-image: linear-gradient(orange, orange); */
 }

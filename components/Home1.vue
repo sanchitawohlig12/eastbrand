@@ -5,27 +5,19 @@
         <v-row no-gutters>
           <v-col cols="12" md="6">
             <div class="inner">
-              <v-img
-                class="img"
-                src="/development/bespokedesk.jpg"
-                height="100%"
-                width="100%"
-              ></v-img>
+              <v-img class="img" src="/development/bespokedesk.jpg"></v-img>
             </div>
 
-            <nuxt-link style="text-decoration: none" to="/besdev"
-              ><v-btn class="one"> Read More </v-btn></nuxt-link
-            >
-            <span class="title">Bespoke Developments</span>
+            <div align="">
+              <nuxt-link style="text-decoration: none" to="/besdev"
+                ><v-btn class="one"> Read More </v-btn></nuxt-link
+              >
+              <span class="title">Bespoke Developments</span>
+            </div>
           </v-col>
           <v-col cols="12" md="6">
             <div class="inner">
-              <v-img
-                class="img"
-                src="/construction/bespokedesk.jpg"
-                height="100%"
-                width="100%"
-              ></v-img>
+              <v-img class="img" src="/construction/bespokedesk.jpg"></v-img>
             </div>
             <nuxt-link style="text-decoration: none" to="/bescon"
               ><v-btn class="one">Read More</v-btn></nuxt-link
@@ -37,12 +29,7 @@
         <v-row no-gutters>
           <v-col cols="12" md="6">
             <div class="inner">
-              <v-img
-                class="img"
-                src="/interior/bespokedesk.jpg"
-                height="100%"
-                width="100%"
-              ></v-img>
+              <v-img class="img" src="/interior/bespokedesk.jpg"></v-img>
             </div>
             <nuxt-link style="text-decoration: none" to="/besint"
               ><v-btn class="one">Read More</v-btn></nuxt-link
@@ -51,12 +38,7 @@
           </v-col>
           <v-col cols="12" md="6">
             <div class="inner">
-              <v-img
-                class="img"
-                src="/heritage/bespokedesk.jpg"
-                height="100%"
-                width="100%"
-              ></v-img>
+              <v-img class="img" src="/heritage/bespokedesk.jpg"></v-img>
             </div>
             <nuxt-link style="text-decoration: none" to="/besher"
               ><v-btn class="one">Read More</v-btn></nuxt-link
@@ -111,6 +93,7 @@
         >
       </v-row>
     </div>
+    <v-divider dark color="orange"></v-divider>
   </div>
 </template>
 
@@ -127,12 +110,13 @@ export default {}
 }
 .title {
   position: relative;
-  left: 10%;
+  left: 15%;
   bottom: 350px;
   font-size: 25px;
   color: black;
   text-shadow: 2px 2px white;
   font-weight: bold;
+  background-color: white;
 
   /* background-image: linear-gradient(orange, orange); */
 }
@@ -144,7 +128,8 @@ export default {}
 }
 .img {
   transition: all 1.5s ease;
-  height: 100%;
+  height: 50%;
+  width: 100%;
 }
 .inner:hover .img {
   transform: scale(1.1);
@@ -156,12 +141,13 @@ export default {}
 }
 .title1 {
   position: relative;
-  left: -10%;
+  left: -8%;
   bottom: 250px;
   font-size: 20px;
   color: black;
   text-shadow: 2px 2px white;
   font-weight: bold;
+  background-color: white;
 
   /* background-image: linear-gradient(orange, orange); */
 }

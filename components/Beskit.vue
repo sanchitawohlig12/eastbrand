@@ -7,9 +7,10 @@
       <img class="" src="/kitchen/onemob.jpg" alt="" />
     </div>
     <div class="besdev" style="text-align: center">
-      TFG Bespoke Group of companies specialise in the creation of exquisite
-      super-prime projects, for private clients, commercial clients and boutique
-      hoteliers. We offer our extensive experience and unrivalled services.
+      Ace Worldwide Limited Bespoke Group of companies specialise in the
+      creation of exquisite super-prime projects, for private clients,
+      commercial clients and boutique hoteliers. We offer our extensive
+      experience and unrivalled services.
     </div>
     <div v-if="!$vuetify.breakpoint.smAndDown">
       <img class="home" src="/kitchen/twodesk.jpg" alt="" />
@@ -23,6 +24,8 @@
       requirements all within one organisation. This in turn enables ourselves
       to provide our clients with one of the most precious commodities – Time.
     </div>
+    <br /><br />
+    <v-divider color="orange"></v-divider><br />
   </div>
 </template>
 
