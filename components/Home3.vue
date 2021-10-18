@@ -16,7 +16,7 @@
             </p>
           </div>
         </v-col>
-        <v-col cols="12" md="4" class="col">
+        <v-col cols="12" md="3" class="col">
           Information
           <br />
           <br />
@@ -51,7 +51,7 @@
             </v-col> -->
           </v-row>
         </v-col>
-        <v-col cols="12" md="4" class="col">
+        <v-col cols="12" md="5" class="col">
           Our Office
           <br />
           <br />
@@ -60,7 +60,7 @@
             <div class="office">
               <v-icon style="color: orange">mdi-map-marker</v-icon>
 
-              Ace Worldwide Limited,6 Roedean Avenue,Enfield
+              Ace Worldwide Limited,6 Roedean Avenue,Enfield, ,EN3 5QJ
             </div>
             <div class="office">
               <v-icon style="color: orange">mdi-phone</v-icon>
