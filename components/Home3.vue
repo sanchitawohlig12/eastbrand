@@ -60,7 +60,7 @@
             <div class="office">
               <v-icon style="color: orange">mdi-map-marker</v-icon>
 
-              Ace Worldwide Limited,6 Roedean Avenue,Enfield, ,EN3 5QJ
+              Ace Worldwide Limited,6 Roedean Avenue,Enfield, EN3 5QJ
             </div>
             <div class="office">
               <v-icon style="color: orange">mdi-phone</v-icon>
@@ -139,7 +139,7 @@
               <div class="office">
                 <v-icon style="color: orange">mdi-map-marker</v-icon>
 
-                Ace Worldwide Limited,6 Roedean Avenue,Enfield,EN3 5QJ
+                Ace Worldwide Limited,6 Roedean Avenue, Enfield, EN3 5QJ
               </div>
               <div class="office">
                 <v-icon style="color: orange">mdi-phone</v-icon>
