@@ -168,13 +168,13 @@ export default {}
 <style>
 .footer {
   background-color: black;
-  height: 250px;
-  width: 1140px;
+  height: 100%;
+  width: 100%;
 }
 .footer1 {
   background-color: black;
   height: 100%;
-  width: 375px;
+  width: 100%;
 }
 .col {
   color: white;
