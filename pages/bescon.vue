@@ -1,8 +1,12 @@
 <template>
-  <div>
+  <div style="background-color: black">
     <br />
     <br />
     <Bescon />
+    <br />
+    <br />
+    <br />
+    <Home3 />
   </div>
 </template>
 

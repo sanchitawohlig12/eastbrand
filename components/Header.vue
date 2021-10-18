@@ -2,7 +2,7 @@
 <template>
   <header>
     <div class="brand-name">
-      <nuxt-link to="/">
+      <nuxt-link to="/home">
         <img class="logo" src="/services/ACE.svg" alt=""
       /></nuxt-link>
     </div>
