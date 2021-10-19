@@ -27,9 +27,10 @@
       </v-carousel>
     </div>
     <div class="homecontent">
+      <br />
       <h1 style="text-align: center; font-weight: bold; color: orange">Home</h1>
       <br />
-      <p
+      <div
         class="para"
         style="color: orange; text-align: justify; font-size: 20px"
       >
@@ -40,7 +41,7 @@
         development requirements within one organisation. Our highly
         professional and experienced teams work seamlessly together to produce
         our uncompromising quality and exacting standards.
-      </p>
+      </div>
       <br />
       <br />
     </div>
@@ -68,7 +69,13 @@ export default {}
     width: 90%;
   }
   .para {
-    padding: 0 3%;
+    /* padding: 5% 6% 5% 6%; */
+    /* border: 2px solid orange; */
+    /* word-spacing: 0px; */
+    /* width: 50px; */
+
+    padding-left: 5%;
+    padding-right: 0%;
   }
 }
 </style>

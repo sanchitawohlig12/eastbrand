@@ -8,7 +8,7 @@
     </div>
     <div class="besdev">
       <br />
-      <p>
+      <p class="para">
         Ace Worldwide Limited specialise in the creation of exquisite
         super-prime projects, for private clients, commercial clients and
         boutique hoteliers. We offer our extensive experience and unrivalled
@@ -25,7 +25,7 @@
 
     <div class="besdev">
       <br />
-      <p>
+      <p class="para">
         We provide for the Luxury development sector, and due to our extensive
         and diverse offering of services we are able to assist with all of our
         clients requirements all within one organisation. This in turn enables

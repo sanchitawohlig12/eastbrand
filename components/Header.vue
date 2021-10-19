@@ -76,14 +76,14 @@ header {
   flex-direction: column;
   justify-content: space-around;
   height: 50%;
-  width: 35px;
+  /* width: 35px; */
   padding-right: 16px;
   cursor: pointer;
 }
 
 @media (max-width: 991px) {
   header {
-    padding: 0 16px;
+    padding: 0 20px;
     background-color: white;
     height: 160%;
   }

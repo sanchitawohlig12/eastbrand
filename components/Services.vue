@@ -12,7 +12,10 @@
         Our Services
       </h1>
       <br />
-      <p style="color: orange; text-align: justify; font-size: 20px ;">
+      <p
+        class="para"
+        style="color: orange; text-align: justify; font-size: 20px"
+      >
         Ace Worldwide Limited create a truly unique project for our clientele.
         If their has been a place in your life you have visited or moment you
         wish to capture that had significant meaning or impact on you or your
@@ -50,6 +53,8 @@ export default {}
   .servicecontent {
     margin-left: 20px;
     width: 85%;
+  }
+  .para {
   }
 }
 </style>

@@ -68,10 +68,9 @@ export default {}
 .about {
   display: flex;
   color: orange;
-  text-align: justify;
+  text-align: center;
   font-size: 20px;
-  justify-content: center;
-  padding: 0 3%;
+  /* justify-content: center; */
 }
 .aboutcontent {
   display: flex;
