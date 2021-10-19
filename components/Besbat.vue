@@ -6,11 +6,15 @@
     <div v-if="$vuetify.breakpoint.smAndDown">
       <img class="" src="/bathroom/onemob.jpg" alt="" />
     </div>
-    <div class="besdev" style="text-align: center">
-      Ace Worldwide Limited Bespoke Group of companies specialise in the
-      creation of exquisite super-prime projects, for private clients,
-      commercial clients and boutique hoteliers. We offer our extensive
-      experience and unrivalled services.
+    <div class="besdev">
+      <br />
+      <p>
+        Ace Worldwide Limited specialise in the creation of exquisite
+        super-prime projects, for private clients, commercial clients and
+        boutique hoteliers. We offer our extensive experience and unrivalled
+        services.
+      </p>
+      <br />
     </div>
     <div v-if="!$vuetify.breakpoint.smAndDown">
       <img class="home" src="/bathroom/twodesk.jpg" alt="" />
@@ -18,15 +22,20 @@
     <div v-if="$vuetify.breakpoint.smAndDown">
       <img class="" src="/bathroom/twomob.jpg" alt="" />
     </div>
-    <div class="besdev" style="text-align: center">
-      We provide for the Luxury development sector, and due to our extensive and
-      diverse offering of services we are able to assist with all of our clients
-      requirements all within one organisation. This in turn enables ourselves
-      to provide our clients with one of the most precious commodities – Time.
+    <div class="besdev">
+      <br />
+      <p>
+        We provide for the Luxury development sector, and due to our extensive
+        and diverse offering of services we are able to assist with all of our
+        clients requirements all within one organisation. This in turn enables
+        ourselves to provide our clients with one of the most precious
+        commodities – Time.
+      </p>
+      <br />
     </div>
 
     <br />
-    <br />
+
     <v-divider color="orange"></v-divider>
     <br />
   </div>
@@ -41,7 +50,15 @@ export default {}
   height: 50%;
   width: 100%;
   background-color: black;
-  color: white;
-  font-size: 30px;
+  color: orange;
+  font-size: 20px;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .besdev {
+    text-align: justify;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
 }
 </style>

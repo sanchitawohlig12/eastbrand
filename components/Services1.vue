@@ -1,92 +1,62 @@
 <template>
-  <div>
+  <div style="background-color: black">
     <div v-if="!$vuetify.breakpoint.smAndDown">
       <v-row no-gutters>
         <v-col cols="12" md="6">
           <div class="inner">
-            <v-img
-              class="img"
-              src="/development/bespokedesk.jpg"
-              height="100%"
-              width="100%"
-            ></v-img>
-          </div>
+            <v-img class="img" src="/development/bespokedesk.jpg"></v-img>
 
-          <nuxt-link style="text-decoration: none" to="/besdev"
-            ><v-btn class="two">Read More</v-btn></nuxt-link
-          >
-          <span class="title3">Bespoke Developments</span>
+            <nuxt-link style="text-decoration: none" to="/besdev"
+              ><v-btn class="two">Read More</v-btn></nuxt-link
+            >
+            <span class="title6">Bespoke Developments</span>
+          </div>
         </v-col>
         <v-col cols="12" md="6">
           <div class="inner">
-            <v-img
-              class="img"
-              src="/construction/bespokedesk.jpg"
-              height="100%"
-              width="100%"
-            ></v-img>
+            <v-img class="img" src="/construction/bespokedesk.jpg"></v-img>
+            <nuxt-link style="text-decoration: none" to="/bescon"
+              ><v-btn class="two">Read More</v-btn></nuxt-link
+            >
+            <span class="title6">Bespoke Construction </span>
           </div>
-          <nuxt-link style="text-decoration: none" to="/bescon"
-            ><v-btn class="two">Read More</v-btn></nuxt-link
-          >
-          <span class="title3">Bespoke Construction </span>
         </v-col>
 
         <v-col cols="12" md="6">
           <div class="inner">
-            <v-img
-              class="img"
-              src="/interior/bespokedesk.jpg"
-              height="100%"
-              width="100%"
-            ></v-img>
+            <v-img class="img" src="/interior/bespokedesk.jpg"></v-img>
+            <nuxt-link style="text-decoration: none" to="/besint"
+              ><v-btn class="two">Read More</v-btn></nuxt-link
+            >
+            <span class="title3">Bespoke Interiors</span>
           </div>
-          <nuxt-link style="text-decoration: none" to="/besint"
-            ><v-btn class="two">Read More</v-btn></nuxt-link
-          >
-          <span class="title3">Bespoke Interiors</span>
         </v-col>
         <v-col cols="12" md="6">
           <div class="inner">
-            <v-img
-              class="img"
-              src="/heritage/bespokedesk.jpg"
-              height="100%"
-              width="100%"
-            ></v-img>
+            <v-img class="img" src="/heritage/bespokedesk.jpg"></v-img>
+            <nuxt-link style="text-decoration: none" to="/besher"
+              ><v-btn class="two">Read More</v-btn></nuxt-link
+            >
+            <span class="title3">Bespoke Heritage</span>
           </div>
-          <nuxt-link style="text-decoration: none" to="/besher"
-            ><v-btn class="two">Read More</v-btn></nuxt-link
-          >
-          <span class="title3">Bespoke Heritage</span>
         </v-col>
         <v-col cols="12" md="6">
           <div class="inner">
-            <v-img
-              class="img"
-              src="/kitchen/bespokedesk.jpg"
-              height="100%"
-              width="100%"
-            ></v-img>
+            <v-img class="img" src="/kitchen/bespokedesk.jpg"></v-img>
+            <nuxt-link style="text-decoration: none" to="/beskit">
+              <v-btn class="two">Read More</v-btn></nuxt-link
+            >
+            <span class="title3">Bespoke Kitchen</span>
           </div>
-          <nuxt-link style="text-decoration: none" to="/beskit">
-            <v-btn class="two">Read More</v-btn></nuxt-link
-          >
-          <span class="title3">Bespoke Kitchen</span>
         </v-col>
         <v-col cols="12" md="6">
           <div class="inner">
-            <v-img
-              class="img"
-              src="/bathroom/bespokedesk.jpg"
-              height="100%"
-              width="100%"
-            ></v-img>
+            <v-img class="img" src="/bathroom/bespokedesk.jpg"></v-img>
+            <nuxt-link style="text-decoration: none" to="/besbat">
+              <v-btn class="two">Read More</v-btn></nuxt-link
+            >
+            <span class="title3">Bespoke Bathroom</span>
           </div>
-          <nuxt-link style="text-decoration: none" to="/besbat">
-            <v-btn class="two">Read More</v-btn></nuxt-link
-          >
-          <span class="title3">Bespoke Bathroom</span>
         </v-col>
       </v-row>
     </div>
@@ -96,21 +66,20 @@
           <v-col cols="12" md="6">
             <div class="inner">
               <v-img class="img" src="/development/bespokemob.jpg"></v-img>
+              <nuxt-link style="text-decoration: none" to="/besdev"
+                ><v-btn class="one1">Read More</v-btn></nuxt-link
+              >
+              <span class="title7">Bespoke Developments</span>
             </div>
-
-            <nuxt-link style="text-decoration: none" to="/besdev"
-              ><v-btn class="one1">Read More</v-btn></nuxt-link
-            >
-            <span class="title4">Bespoke Developments</span>
           </v-col>
           <v-col cols="12" md="6">
             <div class="inner">
               <v-img class="img" src="/construction/bespokemob.jpg"></v-img>
+              <nuxt-link style="text-decoration: none" to="/bescon"
+                ><v-btn class="one1">Read More</v-btn></nuxt-link
+              >
+              <span class="title7">Bespoke Construction </span>
             </div>
-            <nuxt-link style="text-decoration: none" to="/bescon"
-              ><v-btn class="one1">Read More</v-btn></nuxt-link
-            >
-            <span class="title4">Bespoke Construction </span>
           </v-col>
         </v-row>
 
@@ -118,45 +87,47 @@
           <v-col cols="12" md="6">
             <div class="inner">
               <v-img class="img" src="/interior/bespokemob.jpg"></v-img>
+              <nuxt-link style="text-decoration: none" to="/besint"
+                ><v-btn class="one1">Read More</v-btn></nuxt-link
+              >
+              <span class="title4">Bespoke Interiors</span>
             </div>
-            <nuxt-link style="text-decoration: none" to="/besint"
-              ><v-btn class="one1">Read More</v-btn></nuxt-link
-            >
-            <span class="title4">Bespoke Interiors</span>
           </v-col>
           <v-col cols="12" md="6">
             <div class="inner">
               <v-img class="img" src="/heritage/bespokemob.jpg"></v-img>
+              <nuxt-link style="text-decoration: none" to="/besher"
+                ><v-btn class="one1">Read More</v-btn></nuxt-link
+              >
+              <span class="title4">Bespoke Heritage</span>
             </div>
-            <nuxt-link style="text-decoration: none" to="/besher"
-              ><v-btn class="one1">Read More</v-btn></nuxt-link
-            >
-            <span class="title4">Bespoke Heritage</span>
           </v-col>
         </v-row>
         <v-row no-gutters>
           <v-col cols="12" md="6">
             <div class="inner">
               <v-img class="img" src="/kitchen/bespokedesk.jpg"></v-img>
+              <nuxt-link style="text-decoration: none" to="/beskit">
+                <v-btn class="one1">Read More</v-btn></nuxt-link
+              >
+              <span class="title4">Bespoke Kitchen</span>
             </div>
-            <nuxt-link style="text-decoration: none" to="/beskit">
-              <v-btn class="one1">Read More</v-btn></nuxt-link
-            >
-            <span class="title4">Bespoke Kitchen</span>
           </v-col>
           <v-col cols="12" md="6">
             <div class="inner">
               <v-img class="img" src="/bathroom/bespokemob.jpg"></v-img>
+              <nuxt-link style="text-decoration: none" to="/besbat">
+                <v-btn class="one1">Read More</v-btn></nuxt-link
+              >
+              <span class="title4">Bespoke Bathroom</span>
             </div>
-            <nuxt-link style="text-decoration: none" to="/besbat">
-              <v-btn class="one1">Read More</v-btn></nuxt-link
-            >
-            <span class="title4">Bespoke Bathroom</span>
           </v-col>
         </v-row>
       </v-row>
     </div>
+
     <v-divider dark color="orange"></v-divider>
+    <br />
   </div>
 </template>
 
@@ -168,17 +139,17 @@ export default {}
 .two {
   position: relative;
   left: 35%;
-  bottom: 300px;
+  bottom: 250px;
 }
 
 .inner {
   overflow: hidden;
-  height: 100%;
-  width: 100%;
+  /* height: 100%;
+  width: 100%; */
 }
 .img {
   transition: all 1.5s ease;
-  height: 100%;
+  /* height: 100%; */
 }
 .inner:hover .img {
   transform: scale(1.1);
@@ -192,7 +163,20 @@ export default {}
   position: relative;
   /* right: 10%; */
   left: 10%;
-  bottom: 350px;
+  bottom: 300px;
+  font-size: 25px;
+  color: black;
+  text-shadow: 2px 2px white;
+  font-weight: bold;
+  background-color: white;
+
+  /* background-image: linear-gradient(orange, orange); */
+}
+.title6 {
+  position: relative;
+  /* right: 10%; */
+  left: 7%;
+  bottom: 300px;
   font-size: 25px;
   color: black;
   text-shadow: 2px 2px white;
@@ -204,7 +188,7 @@ export default {}
 .title4 {
   position: relative;
   /* right: 10%; */
-  right: 7%;
+  right: 3%;
   bottom: 250px;
   font-size: 20px;
   color: black;

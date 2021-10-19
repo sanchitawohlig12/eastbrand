@@ -1,10 +1,12 @@
 <template>
-  <div style="background-color: black">
+  <div>
     <br />
     <br />
     <About />
-    <br />
+
     <About3 />
     <!-- <h1>About Dukaan.com</h1> -->
   </div>
 </template>
+<style scoped>
+</style>

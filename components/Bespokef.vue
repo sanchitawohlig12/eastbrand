@@ -1,15 +1,11 @@
 <template>
   <div>
-    <v-divider dark color="orange"></v-divider>
-
     <div v-if="!$vuetify.breakpoint.smAndDown" class="footer">
-      <v-divider dark color="orange"></v-divider>
       <v-row>
-        <v-col cols="12" md="1"></v-col>
-
+        <!-- <v-col cols="12" md="1"></v-col> -->
+        <v-spacer></v-spacer>
         <v-col cols="12" md="4" class="col">
           <div class="Ace">
-            <br />
             <img class="logo" src="/services/ACE.svg" alt="" />
             <br />
 
@@ -20,22 +16,20 @@
             </p>
           </div>
         </v-col>
-        <v-col cols="12" md="2"></v-col>
-        <v-col cols="12" md="4" class="col">
-          <br />
+        <v-col cols="12" md="3" class="col">
           Information
           <br />
           <br />
           <v-row>
             <v-col cols="12" md="12">
               <div class="info">
-                <nuxt-link style="text-decoration: none" to="/home"
-                  ><p>> <span class="sp">Home</span></p></nuxt-link
+                <nuxt-link style="text-decoration: none" to="/home">
+                  <p>> <span class="sp">Home</span></p></nuxt-link
                 >
               </div>
               <div class="info">
-                <nuxt-link style="text-decoration: none" to="/services">
-                  <p>> <span class="sp">Our Services</span></p></nuxt-link
+                <nuxt-link style="text-decoration: none" to="/services"
+                  ><p>> <span class="sp">Our Services</span></p></nuxt-link
                 >
               </div>
               <div class="info">
@@ -43,9 +37,11 @@
                   <p>> <span class="sp">About Us</span></p></nuxt-link
                 >
               </div>
-              <!-- <div class="info">
-                <p>> <span>Contact Us</span></p>
-              </div> -->
+              <div class="info">
+                <nuxt-link style="text-decoration: none" to="/contact"
+                  ><p>> <span class="sp">Contact Us</span></p></nuxt-link
+                >
+              </div>
             </v-col>
             <!-- <v-col cols="6">
               <div class="info">
@@ -63,8 +59,7 @@
             </v-col> -->
           </v-row>
         </v-col>
-        <v-col cols="12" md="1"></v-col>
-        <!-- <v-col cols="12" md="4" class="col">
+        <v-col cols="12" md="5" class="col">
           Our Office
           <br />
           <br />
@@ -73,7 +68,7 @@
             <div class="office">
               <v-icon style="color: orange">mdi-map-marker</v-icon>
 
-              Ace Worldwide Limited,6 Roedean Avenue,Enfield
+              Ace Worldwide Limited,6 Roedean Avenue, Enfield, EN3 5QJ
             </div>
             <div class="office">
               <v-icon style="color: orange">mdi-phone</v-icon>
@@ -83,12 +78,15 @@
               <v-icon style="color: orange"> mdi-email</v-icon>
               info@aceworldwide.co.uk
             </div>
-           
+            <!-- <div class="office">
+              <v-icon style="color: orange"> mdi-clock-time-nine</v-icon>
+              Mon - Sat: 9:00 - 18:00
+            </div> -->
           </div>
-        </v-col> -->
+        </v-col>
       </v-row>
     </div>
-    <div v-if="$vuetify.breakpoint.smAndDown" class="footer2">
+    <div v-if="$vuetify.breakpoint.smAndDown" class="footer1">
       <v-row>
         <!-- <v-col cols="12" md="1"></v-col> -->
 
@@ -96,12 +94,14 @@
           <div class="Ace">
             <img class="logo" src="/services/ACE.svg" alt="" />
             <br />
-
-            <p>
-              Our vision was to create a vast unparalleled monopoly of luxurious
-              companies, so as we could provide a full suite of development
-              services to cater for all of our clienteles pacific needs.
-            </p>
+            <div style="width: 65%">
+              <p class="para1">
+                Our vision was to create a vast unparalleled monopoly of
+                luxurious companies, so as we could provide a full suite of
+                development services to cater for all of our clienteles pacific
+                needs.
+              </p>
+            </div>
           </div>
         </v-col>
         <v-col cols="12" md="12" class="col">
@@ -112,16 +112,24 @@
             <v-row>
               <v-col cols="12" md="6">
                 <div class="info">
-                  <p>> <span class="sp">Home</span></p>
+                  <nuxt-link style="text-decoration: none" to="/home"
+                    ><p>> <span class="sp">Home</span></p></nuxt-link
+                  >
                 </div>
                 <div class="info">
-                  <p>> <span class="sp">Our Services</span></p>
+                  <nuxt-link style="text-decoration: none" to="/services">
+                    <p>> <span class="sp">Our Services</span></p></nuxt-link
+                  >
                 </div>
                 <div class="info">
-                  <p>> <span class="sp">About Us</span></p>
+                  <nuxt-link style="text-decoration: none" to="/about">
+                    <p>> <span class="sp">About Us</span></p></nuxt-link
+                  >
                 </div>
                 <div class="info">
-                  <p>> <span class="sp">Contact Us</span></p>
+                  <nuxt-link style="text-decoration: none" to="/contact">
+                    <p>> <span class="sp">Contact Us</span></p></nuxt-link
+                  >
                 </div>
                 <!-- <div class="info">
                   <p>> <span>Our Project</span></p>
@@ -139,7 +147,7 @@
             </v-row>
           </div>
         </v-col>
-        <!-- <v-col cols="12" md="12" class="col">
+        <v-col cols="12" md="12" class="col">
           <div class="Ace1">
             Our Office
             <br />
@@ -149,7 +157,8 @@
               <div class="office">
                 <v-icon style="color: orange">mdi-map-marker</v-icon>
 
-                Ace Worldwide Limited,6 Roedean Avenue,Enfield
+                Ace Worldwide Limited,6 Roedean Avenue,<br />
+                <span style="padding-left: 4%">Enfield EN3 5QJ</span>
               </div>
               <div class="office">
                 <v-icon style="color: orange">mdi-phone</v-icon>
@@ -159,10 +168,13 @@
                 <v-icon style="color: orange"> mdi-email</v-icon>
                 info@aceworldwide.co.uk
               </div>
-             
+              <!-- <div class="office">
+                <v-icon style="color: orange"> mdi-clock-time-nine</v-icon>
+                Mon - Sat: 9:00 - 18:00
+              </div> -->
             </div>
           </div>
-        </v-col> -->
+        </v-col>
       </v-row>
     </div>
   </div>
@@ -178,7 +190,7 @@ export default {}
   height: 100%;
   width: 100%;
 }
-.footer2 {
+.footer1 {
   background-color: black;
   height: 100%;
   width: 100%;
@@ -230,5 +242,10 @@ span {
   /* margin-top: 30px; */
   margin-top: 0;
   margin-left: 50px;
+}
+@media (max-width: 991px) {
+  .logo {
+    margin-left: -50px;
+  }
 }
 </style>

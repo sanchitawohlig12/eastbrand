@@ -1,14 +1,18 @@
 <template>
   <div style="background-color: black">
     <div v-if="!$vuetify.breakpoint.smAndDown">
-      <img class="home" src="/ourservices/desktop.jpg" alt="" />
+      <img class="home1" src="/ourservices/desktop.jpg" alt="" />
     </div>
     <div v-if="$vuetify.breakpoint.smAndDown">
-      <img class="home" src="/ourservices/mobile.jpg" alt="" />
+      <img class="home1" src="/ourservices/mobile.jpg" alt="" />
     </div>
     <div class="servicecontent">
       <br />
-      <p style="color: orange; text-align: center; font-size: 20px">
+      <h1 style="text-align: center; font-weight: bold; color: orange">
+        Our Services
+      </h1>
+      <br />
+      <p style="color: orange; text-align: justify; font-size: 20px ;">
         Ace Worldwide Limited create a truly unique project for our clientele.
         If their has been a place in your life you have visited or moment you
         wish to capture that had significant meaning or impact on you or your
@@ -22,6 +26,7 @@
         created to tell a story in time of ones unforgettable experience or
         moment.
       </p>
+      <br />
       <br />
     </div>
   </div>
@@ -37,10 +42,14 @@ export default {}
   height: 100%;
   width: 75%;
 }
+.home1 {
+  width: 100%;
+}
+
 @media (max-width: 991px) {
   .servicecontent {
     margin-left: 20px;
-    width: 90%;
+    width: 85%;
   }
 }
 </style>

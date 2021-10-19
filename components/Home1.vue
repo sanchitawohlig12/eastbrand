@@ -6,23 +6,20 @@
           <v-col cols="12" md="6">
             <div class="inner">
               <v-img class="img" src="/development/bespokedesk.jpg"></v-img>
-            </div>
-
-            <div align="">
               <nuxt-link style="text-decoration: none" to="/besdev"
                 ><v-btn class="one"> Read More </v-btn></nuxt-link
               >
-              <span class="title">Bespoke Developments</span>
+              <span class="title5">Bespoke Developments</span>
             </div>
           </v-col>
           <v-col cols="12" md="6">
             <div class="inner">
               <v-img class="img" src="/construction/bespokedesk.jpg"></v-img>
+              <nuxt-link style="text-decoration: none" to="/bescon"
+                ><v-btn class="one">Read More</v-btn></nuxt-link
+              >
+              <span class="title5">Bespoke Construction</span>
             </div>
-            <nuxt-link style="text-decoration: none" to="/bescon"
-              ><v-btn class="one">Read More</v-btn></nuxt-link
-            >
-            <span class="title">Bespoke Construction</span>
           </v-col>
         </v-row>
 
@@ -30,20 +27,20 @@
           <v-col cols="12" md="6">
             <div class="inner">
               <v-img class="img" src="/interior/bespokedesk.jpg"></v-img>
+              <nuxt-link style="text-decoration: none" to="/besint"
+                ><v-btn class="one">Read More</v-btn></nuxt-link
+              >
+              <span class="title">Bespoke Interiors</span>
             </div>
-            <nuxt-link style="text-decoration: none" to="/besint"
-              ><v-btn class="one">Read More</v-btn></nuxt-link
-            >
-            <span class="title">Bespoke Interiors</span>
           </v-col>
           <v-col cols="12" md="6">
             <div class="inner">
               <v-img class="img" src="/heritage/bespokedesk.jpg"></v-img>
+              <nuxt-link style="text-decoration: none" to="/besher"
+                ><v-btn class="one">Read More</v-btn></nuxt-link
+              >
+              <span class="title">Bespoke Heritage</span>
             </div>
-            <nuxt-link style="text-decoration: none" to="/besher"
-              ><v-btn class="one">Read More</v-btn></nuxt-link
-            >
-            <span class="title">Bespoke Heritage</span>
           </v-col>
         </v-row>
       </v-row>
@@ -54,46 +51,47 @@
           <v-col cols="12" md="6">
             <div class="inner">
               <v-img class="img" src="/development/bespokemob.jpg"></v-img>
+              <nuxt-link style="text-decoration: none" to="/besdev"
+                ><v-btn class="one1">Read More</v-btn></nuxt-link
+              >
+              <span class="title7">Bespoke Developments</span>
             </div>
-
-            <nuxt-link style="text-decoration: none" to="/besdev"
-              ><v-btn class="one1">Read More</v-btn></nuxt-link
-            >
-            <span class="title1">Bespoke Developments</span>
           </v-col>
           <v-col cols="12" md="6">
             <div class="inner">
               <v-img class="img" src="/construction/bespokemob.jpg"></v-img>
+              <nuxt-link style="text-decoration: none" to="/bescon"
+                ><v-btn class="one1">Read More</v-btn></nuxt-link
+              >
+              <span class="title7">Bespoke Construction</span>
             </div>
-            <nuxt-link style="text-decoration: none" to="/bescon"
-              ><v-btn class="one1">Read More</v-btn></nuxt-link
-            >
-            <span class="title1">Bespoke Construction</span>
           </v-col>
         </v-row>
         <v-row no-gutters
           ><v-col cols="12" md="6">
             <div class="inner">
               <v-img class="img" src="/interior/bespokemob.jpg"></v-img>
+              <nuxt-link style="text-decoration: none" to="/besint">
+                <v-btn class="one1">Read More</v-btn></nuxt-link
+              >
+              <span class="title1">Bespoke Interiors</span>
             </div>
-            <nuxt-link style="text-decoration: none" to="/besint">
-              <v-btn class="one1">Read More</v-btn></nuxt-link
-            >
-            <span class="title1">Bespoke Interiors</span>
           </v-col>
           <v-col cols="12" md="6">
             <div class="inner">
               <v-img class="img" src="/heritage/bespokemob.jpg"></v-img>
+              <nuxt-link style="text-decoration: none" to="/besher">
+                <v-btn class="one1"> Read More</v-btn></nuxt-link
+              >
+              <span class="title1">Bespoke Heritage</span>
             </div>
-            <nuxt-link style="text-decoration: none" to="/besher">
-              <v-btn class="one1"> Read More</v-btn></nuxt-link
-            >
-            <span class="title1">Bespoke Heritage</span>
           </v-col></v-row
         >
       </v-row>
     </div>
+
     <v-divider dark color="orange"></v-divider>
+    <br />
   </div>
 </template>
 
@@ -105,13 +103,13 @@ export default {}
 .one {
   position: relative;
   left: 40%;
-  bottom: 300px;
+  bottom: 250px;
   /* background-image: linear-gradient(orange, orange); */
 }
 .title {
   position: relative;
   left: 15%;
-  bottom: 350px;
+  bottom: 300px;
   font-size: 25px;
   color: black;
   text-shadow: 2px 2px white;
@@ -120,15 +118,25 @@ export default {}
 
   /* background-image: linear-gradient(orange, orange); */
 }
+.title5 {
+  position: relative;
+  left: 12%;
+  bottom: 300px;
+  font-size: 25px;
+  color: black;
+  text-shadow: 2px 2px white;
+  font-weight: bold;
+  background-color: white;
+}
 
 .inner {
   overflow: hidden;
-  height: 100%;
+  height: 400px;
   width: 100%;
 }
 .img {
   transition: all 1.5s ease;
-  height: 50%;
+  height: 100%;
   width: 100%;
 }
 .inner:hover .img {
@@ -140,6 +148,18 @@ export default {}
   bottom: 200px;
 }
 .title1 {
+  position: relative;
+  left: -3%;
+  bottom: 250px;
+  font-size: 20px;
+  color: black;
+  text-shadow: 2px 2px white;
+  font-weight: bold;
+  background-color: white;
+
+  /* background-image: linear-gradient(orange, orange); */
+}
+.title7 {
   position: relative;
   left: -8%;
   bottom: 250px;

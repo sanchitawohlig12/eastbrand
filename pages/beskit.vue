@@ -4,7 +4,7 @@
 
     <Beskit />
 
-    <Home3 />
+    <Bespokef />
   </div>
 </template>
 

@@ -37,15 +37,24 @@ body {
 }
 .app-container {
   height: 100%;
+  /* overflow-x: hidden; */
   position: relative;
   display: grid;
   grid-template: auto 1fr auto / 1fr;
 }
 .app-content {
   min-height: 100vh;
+  min-width: 100%;
   padding: 24px;
   display: grid;
   align-items: center;
   justify-items: center;
+  /* overflow-x: hidden; */
+}
+@media (max-width: 991px) {
+  .app-content {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
 }
 </style>

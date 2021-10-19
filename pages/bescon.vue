@@ -4,7 +4,7 @@
     <br />
     <Bescon />
 
-    <Home3 />
+    <Bespokef />
   </div>
 </template>
 

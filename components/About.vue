@@ -1,17 +1,19 @@
 <template>
   <div style="background-color: black">
     <div v-if="!$vuetify.breakpoint.smAndDown">
-      <img class="home" src="/about/desktop.jpg" alt="" />
+      <img class="home1" src="/about/desktop.jpg" alt="" />
     </div>
     <div v-if="$vuetify.breakpoint.smAndDown">
-      <img class="home" src="/about/mobile.jpg" alt="" />
+      <img class="home1" src="/about/mobile.jpg" alt="" />
     </div>
     <div style="background-color: black">
+      <br />
       <h1 style="text-align: center; font-weight: bold; color: orange">
         Our Company
       </h1>
-      <br />
-      <v-divider color="orange"></v-divider>
+
+      <!-- <br /> -->
+      <!-- <v-divider color="orange"></v-divider> -->
 
       <br />
       <div class="aboutcontent">
@@ -46,12 +48,15 @@
           relationships we hold with our clients and their assurance and
           confidence in our aptitude to deliver.
         </p>
+
+        <br />
       </div>
 
       <br />
       <br />
+      <v-divider color="orange"></v-divider>
+      <br />
     </div>
-    <v-divider color="orange"></v-divider>
   </div>
 </template>
 
@@ -61,13 +66,19 @@ export default {}
 
 <style>
 .about {
+  display: flex;
   color: orange;
-  text-align: center;
+  text-align: justify;
+  font-size: 20px;
+  justify-content: center;
+  padding: 0 3%;
 }
 .aboutcontent {
+  display: flex;
   margin-left: 170px;
   height: 100%;
-  width: 75%;
+  width: 80%;
+  justify-content: center;
 }
 @media (max-width: 991px) {
   .aboutcontent {
