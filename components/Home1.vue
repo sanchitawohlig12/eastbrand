@@ -168,7 +168,7 @@ export default {}
 }
 .title1 {
   position: relative;
-  left: -3%;
+  left: -2%;
   bottom: 250px;
   font-size: 20px;
   color: black;
@@ -180,7 +180,7 @@ export default {}
 }
 .title7 {
   position: relative;
-  left: -8%;
+  left: -7%;
   bottom: 250px;
   font-size: 20px;
   color: black;
@@ -198,12 +198,12 @@ export default {}
   }
   .title7 {
     position: relative;
-    left: -15%;
+    left: -17%;
     bottom: 250px;
   }
   .title1 {
     position: relative;
-    left: -11%;
+    left: -12%;
     bottom: 250px;
   }
 }

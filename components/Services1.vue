@@ -211,7 +211,7 @@ export default {}
 .title4 {
   position: relative;
   /* right: 10%; */
-  right: 3%;
+  right: 2%;
   bottom: 250px;
   font-size: 20px;
   color: black;
@@ -228,7 +228,7 @@ export default {}
   .title4 {
     position: relative;
     /* right: 10%; */
-    right: 12%;
+    right: 11%;
     bottom: 250px;
   }
 }

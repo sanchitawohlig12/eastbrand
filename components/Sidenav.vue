@@ -4,7 +4,7 @@
 
     <transition name="slide-side">
       <div v-if="isSidebar" class="sidenav">
-        <span @click="hideSidebar">&#128473;</span>
+        <span @click="hideSidebar">&#x1F5D9;</span>
         <app-links></app-links>
       </div>
     </transition>
