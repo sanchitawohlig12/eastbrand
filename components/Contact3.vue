@@ -97,7 +97,7 @@
             <img class="logo" src="/services/ACE.svg" alt="" />
             <br />
 
-            <p>
+            <p class="acepara1">
               Our vision was to create a vast unparalleled monopoly of luxurious
               companies, so as we could provide a full suite of development
               services to cater for all of our clienteles pacific needs.
@@ -230,5 +230,10 @@ span {
   /* margin-top: 30px; */
   margin-top: 0;
   margin-left: 50px;
+}
+@media (max-width: 320px) {
+  .acepara1 {
+    margin-right: 8%;
+  }
 }
 </style>

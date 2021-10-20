@@ -9,7 +9,9 @@
             <nuxt-link style="text-decoration: none" to="/besdev"
               ><v-btn class="two">Read More</v-btn></nuxt-link
             >
-            <span class="title6">Bespoke Developments</span>
+            <div class="sub-title1" align="center">
+              <span>Bespoke Developments</span>
+            </div>
           </div>
         </v-col>
         <v-col cols="12" md="6">
@@ -18,7 +20,9 @@
             <nuxt-link style="text-decoration: none" to="/bescon"
               ><v-btn class="two">Read More</v-btn></nuxt-link
             >
-            <span class="title6">Bespoke Construction </span>
+            <div class="sub-title1" align="center">
+              <span>Bespoke Construction </span>
+            </div>
           </div>
         </v-col>
 
@@ -28,7 +32,9 @@
             <nuxt-link style="text-decoration: none" to="/besint"
               ><v-btn class="two">Read More</v-btn></nuxt-link
             >
-            <span class="title3">Bespoke Interiors</span>
+            <div class="sub-title1" align="center">
+              <span>Bespoke Interiors</span>
+            </div>
           </div>
         </v-col>
         <v-col cols="12" md="6">
@@ -37,7 +43,9 @@
             <nuxt-link style="text-decoration: none" to="/besher"
               ><v-btn class="two">Read More</v-btn></nuxt-link
             >
-            <span class="title3">Bespoke Heritage</span>
+            <div class="sub-title1" align="center">
+              <span>Bespoke Heritage</span>
+            </div>
           </div>
         </v-col>
         <v-col cols="12" md="6">
@@ -46,7 +54,9 @@
             <nuxt-link style="text-decoration: none" to="/beskit">
               <v-btn class="two">Read More</v-btn></nuxt-link
             >
-            <span class="title3">Bespoke Kitchen</span>
+            <div class="sub-title1" align="center">
+              <span>Bespoke Kitchen</span>
+            </div>
           </div>
         </v-col>
         <v-col cols="12" md="6">
@@ -55,7 +65,9 @@
             <nuxt-link style="text-decoration: none" to="/besbat">
               <v-btn class="two">Read More</v-btn></nuxt-link
             >
-            <span class="title3">Bespoke Bathroom</span>
+            <div class="sub-title1" align="center">
+              <span>Bespoke Bathroom</span>
+            </div>
           </div>
         </v-col>
       </v-row>
@@ -154,11 +166,11 @@ export default {}
 .inner:hover .img {
   transform: scale(1.1);
 }
-.one1 {
+/* .one1 {
   position: relative;
   left: 35%;
   bottom: 200px;
-}
+} */
 .title3 {
   position: relative;
   /* right: 10%; */
@@ -171,6 +183,17 @@ export default {}
   background-color: white;
 
   /* background-image: linear-gradient(orange, orange); */
+}
+.sub-title1 {
+  position: relative;
+  width: 300px;
+  left: 22%;
+  bottom: 335px;
+  font-size: 25px;
+  color: black;
+  text-shadow: 4px 4px white;
+  font-weight: bold;
+  background-color: white;
 }
 .title6 {
   position: relative;
@@ -198,7 +221,23 @@ export default {}
 
   /* background-image: linear-gradient(orange, orange); */
 }
-.img1 {
+/* .img1 {
   height: 800px;
+} */
+@media (max-width: 320px) {
+  .title4 {
+    position: relative;
+    /* right: 10%; */
+    right: 12%;
+    bottom: 250px;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .title4 {
+    position: relative;
+    /* right: 10%; */
+    left: 23%;
+    bottom: 250px;
+  }
 }
 </style>

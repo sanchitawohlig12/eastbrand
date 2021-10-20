@@ -43,7 +43,7 @@ body {
   grid-template: auto 1fr auto / 1fr;
 }
 .app-content {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   min-width: 100%;
   padding: 24px;
   display: grid;

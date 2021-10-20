@@ -6,10 +6,12 @@
           <v-col cols="12" md="6">
             <div class="inner">
               <v-img class="img" src="/development/bespokedesk.jpg"></v-img>
-              <nuxt-link style="text-decoration: none" to="/besdev"
-                ><v-btn class="one"> Read More </v-btn></nuxt-link
-              >
-              <span class="title5">Bespoke Developments</span>
+              <nuxt-link style="text-decoration: none" to="/besdev">
+                <v-btn class="one"> Read More </v-btn>
+              </nuxt-link>
+              <div class="sub-title" align="center">
+                <span>Bespoke Developments</span>
+              </div>
             </div>
           </v-col>
           <v-col cols="12" md="6">
@@ -18,7 +20,9 @@
               <nuxt-link style="text-decoration: none" to="/bescon"
                 ><v-btn class="one">Read More</v-btn></nuxt-link
               >
-              <span class="title5">Bespoke Construction</span>
+              <div class="sub-title" align="center">
+                <span>Bespoke Construction</span>
+              </div>
             </div>
           </v-col>
         </v-row>
@@ -30,7 +34,9 @@
               <nuxt-link style="text-decoration: none" to="/besint"
                 ><v-btn class="one">Read More</v-btn></nuxt-link
               >
-              <span class="title">Bespoke Interiors</span>
+              <div class="sub-title" align="center">
+                <span>Bespoke Interiors</span>
+              </div>
             </div>
           </v-col>
           <v-col cols="12" md="6">
@@ -39,7 +45,9 @@
               <nuxt-link style="text-decoration: none" to="/besher"
                 ><v-btn class="one">Read More</v-btn></nuxt-link
               >
-              <span class="title">Bespoke Heritage</span>
+              <div class="sub-title" align="center">
+                <span>Bespoke Heritage</span>
+              </div>
             </div>
           </v-col>
         </v-row>
@@ -120,11 +128,22 @@ export default {}
 }
 .title5 {
   position: relative;
-  left: 12%;
+  left: 10%;
   bottom: 300px;
   font-size: 25px;
   color: black;
   text-shadow: 2px 2px white;
+  font-weight: bold;
+  background-color: white;
+}
+.sub-title {
+  position: relative;
+  width: 300px;
+  left: 26%;
+  bottom: 335px;
+  font-size: 25px;
+  color: black;
+  text-shadow: 4px 4px white;
   font-weight: bold;
   background-color: white;
 }
@@ -170,5 +189,59 @@ export default {}
   background-color: white;
 
   /* background-image: linear-gradient(orange, orange); */
+}
+@media (max-width: 320px) {
+  .one1 {
+    position: relative;
+    left: 25%;
+    bottom: 200px;
+  }
+  .title7 {
+    position: relative;
+    left: -15%;
+    bottom: 250px;
+  }
+  .title1 {
+    position: relative;
+    left: -11%;
+    bottom: 250px;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .one1 {
+    position: relative;
+    left: 43%;
+    bottom: 200px;
+  }
+  .title7 {
+    position: relative;
+    left: 20%;
+    bottom: 250px;
+  }
+  .title1 {
+    position: relative;
+    left: 23%;
+    bottom: 250px;
+  }
+}
+/* @media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
+  .title7 {
+    position: relative;
+    left: 10%;
+    bottom: 250px;
+  }
+} */
+
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 2) and(orientation: portrait) {
+  .title5 {
+    position: relative;
+    left: 60%;
+  }
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .title5 {
+    position: relative;
+    left: 60%;
+  }
 }
 </style>

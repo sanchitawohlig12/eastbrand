@@ -4,9 +4,9 @@
       <img class="home" src="/interior/onedesk.jpg" alt="" />
     </div>
     <div v-if="$vuetify.breakpoint.smAndDown">
-      <img class="" src="/interior/onemob.jpg" alt="" />
+      <img class="home1" src="/interior/onemob.jpg" alt="" />
     </div>
-    <div class="besdev">
+    <div class="besint">
       <br />
       <p class="">
         Ace Worldwide Limited specialise in the creation of exquisite
@@ -17,12 +17,12 @@
       <br />
     </div>
     <div v-if="!$vuetify.breakpoint.smAndDown">
-      <img class="home" src="/interior/twodesk.jpg" alt="" />
+      <img class="home1" src="/interior/twodesk.jpg" alt="" />
     </div>
     <div v-if="$vuetify.breakpoint.smAndDown">
-      <img class="" src="/interior/twomob.jpg" alt="" />
+      <img class="home1" src="/interior/twomob.jpg" alt="" />
     </div>
-    <div class="besdev">
+    <div class="besint">
       <br />
       <p class="">
         We provide for the Luxury development sector, and due to our extensive
@@ -43,17 +43,35 @@ export default {}
 </script>
 
 <style>
-.besdev {
+.besint {
+  height: 40%;
+  width: 60%;
   background-color: black;
   color: orange;
   font-size: 20px;
+  margin-left: 20%;
   text-align: center;
 }
 @media (max-width: 991px) {
-  .besdev {
+  .besint {
+    height: 40%;
+    width: 90%;
+    background-color: black;
+    color: orange;
+    font-size: 20px;
+    margin-left: 5%;
+  }
+}
+@media (max-width: 991px) {
+  .besint {
     text-align: justify;
     padding-left: 3%;
     padding-right: 3%;
+  }
+}
+@media (max-width: 320px) {
+  .besint {
+    margin-left: 5%;
   }
 }
 </style>

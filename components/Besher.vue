@@ -1,12 +1,12 @@
 <template>
   <div style="background-color: black">
     <div v-if="!$vuetify.breakpoint.smAndDown">
-      <img class="home" src="/heritage/onedesk.jpg" alt="" />
+      <img class="home1" src="/heritage/onedesk.jpg" alt="" />
     </div>
     <div v-if="$vuetify.breakpoint.smAndDown">
-      <img class="" src="/heritage/onemob.jpg" alt="" />
+      <img class="home1" src="/heritage/onemob.jpg" alt="" />
     </div>
-    <div class="besdev">
+    <div class="besher">
       <br />
       <p class="">
         Ace Worldwide Limited specialise in the creation of exquisite
@@ -17,12 +17,12 @@
       <br />
     </div>
     <div v-if="!$vuetify.breakpoint.smAndDown">
-      <img class="home" src="/heritage/twodesk.jpg" alt="" />
+      <img class="home1" src="/heritage/twodesk.jpg" alt="" />
     </div>
     <div v-if="$vuetify.breakpoint.smAndDown">
-      <img class="" src="/heritage/twomob.jpg" alt="" />
+      <img class="home1" src="/heritage/twomob.jpg" alt="" />
     </div>
-    <div class="besdev">
+    <div class="besher">
       <br />
       <p class="">
         We provide for the Luxury development sector, and due to our extensive
@@ -45,17 +45,35 @@ export default {}
 </script>
 
 <style>
-.besdev {
+.besher {
+  height: 40%;
+  width: 60%;
   background-color: black;
   color: orange;
   font-size: 20px;
+  margin-left: 20%;
   text-align: center;
 }
 @media (max-width: 991px) {
-  .besdev {
+  .besher {
+    height: 40%;
+    width: 90%;
+    background-color: black;
+    color: orange;
+    font-size: 20px;
+    margin-left: 5%;
+  }
+}
+@media (max-width: 991px) {
+  .besher {
     text-align: justify;
     padding-left: 3%;
     padding-right: 3%;
+  }
+}
+@media (max-width: 320px) {
+  .besher {
+    margin-left: 5%;
   }
 }
 </style>

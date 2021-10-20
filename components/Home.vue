@@ -1,7 +1,7 @@
 <template>
   <div style="background-color: black">
     <div v-if="!$vuetify.breakpoint.smAndDown">
-      <v-carousel cycle height="300" hide-delimiters :show-arrows="false">
+      <v-carousel cycle height="250px" hide-delimiters :show-arrows="false">
         <v-carousel-item>
           <img class="home1" src="/home/one.jpg" alt=""
         /></v-carousel-item>
@@ -14,7 +14,7 @@
       </v-carousel>
     </div>
     <div v-if="$vuetify.breakpoint.smAndDown">
-      <v-carousel cycle height="200" hide-delimiters :show-arrows="false">
+      <v-carousel class="ca" cycle hide-delimiters :show-arrows="false">
         <v-carousel-item>
           <img class="home1" src="/home/one1.jpg" alt=""
         /></v-carousel-item>
@@ -28,7 +28,12 @@
     </div>
     <div class="homecontent">
       <br />
-      <h1 style="text-align: center; font-weight: bold; color: orange">Home</h1>
+      <h1
+        style="text-align: center; font-weight: bold; color: orange"
+        class="heading"
+      >
+        Home
+      </h1>
       <br />
       <div
         class="para"
@@ -54,28 +59,61 @@ export default {}
 
 <style>
 .home1 {
-  /* height: 100%;
-  width: 100%; */
+  /* height: 100%; */
+  /*width: 100%; */
   width: 100%;
 }
 .homecontent {
-  margin-left: 170px;
+  margin-left: 10%;
   height: 100%;
   width: 75%;
 }
+@media only screen and (max-width: 768px) {
+  .ca {
+    height: 400px;
+  }
+  /* .para {
+    margin-top: -250px;
+  } */
+  .heading {
+    margin-top: -250px;
+  }
+}
+
 @media (max-width: 991px) {
   .homecontent {
     margin-left: 10px;
     width: 90%;
   }
+
   .para {
     /* padding: 5% 6% 5% 6%; */
     /* border: 2px solid orange; */
     /* word-spacing: 0px; */
     /* width: 50px; */
 
-    padding-left: 5%;
-    padding-right: 0%;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .heading {
+    padding-left: 10%;
+    margin-top: 0px;
+  }
+  .para {
+    padding-left: 10%;
+  }
+}
+@media (max-width: 320px) {
+  .para {
+    padding-right: 18%;
+  }
+  .heading {
+    padding-right: 12%;
+  }
+  .ca {
+    height: 400px;
   }
 }
 </style>

@@ -6,15 +6,16 @@
     <div v-if="$vuetify.breakpoint.smAndDown">
       <img class="home1" src="/ourservices/mobile.jpg" alt="" />
     </div>
-    <div class="servicecontent">
+    <div class="servicecontent" align="center">
       <br />
-      <h1 style="text-align: center; font-weight: bold; color: orange">
+      <h1 style="font-weight: bold; color: orange" class="headings">
         Our Services
       </h1>
       <br />
       <p
         class="para"
         style="color: orange; text-align: justify; font-size: 20px"
+        align="center"
       >
         Ace Worldwide Limited create a truly unique project for our clientele.
         If their has been a place in your life you have visited or moment you
@@ -45,6 +46,9 @@ export default {}
   height: 100%;
   width: 75%;
 }
+.headings {
+  text-align: center;
+}
 .home1 {
   width: 100%;
 }
@@ -55,6 +59,23 @@ export default {}
     width: 85%;
   }
   .para {
+    /* align-self: center; */
+  }
+}
+@media (max-width: 320px) {
+  /* .para {
+    align-self: center;
+    padding-right: 18%;
+  } */
+  .headings {
+    padding-right: 15%;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .servicecontent {
+    margin-left: 10px;
+
+    width: 90%;
   }
 }
 </style>

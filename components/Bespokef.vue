@@ -9,7 +9,7 @@
             <img class="logo" src="/services/ACE.svg" alt="" />
             <br />
 
-            <p>
+            <p class="">
               Our vision was to create a vast unparalleled monopoly of luxurious
               companies, so as we could provide a full suite of development
               services to cater for all of our clienteles pacific needs.
@@ -94,7 +94,7 @@
           <div class="Ace">
             <img class="logo" src="/services/ACE.svg" alt="" />
             <br />
-            <div style="width: 65%">
+            <div style="width: 100%">
               <p class="para1">
                 Our vision was to create a vast unparalleled monopoly of
                 luxurious companies, so as we could provide a full suite of
@@ -204,7 +204,7 @@ export default {}
 .col p {
   font-size: 16px;
   font-weight: normal;
-  padding-right: 50px;
+  padding-right: 0px;
   color: rgb(241, 232, 232);
   text-align: left;
 }
@@ -246,6 +246,11 @@ span {
 @media (max-width: 991px) {
   .logo {
     margin-left: -50px;
+  }
+  @media (max-width: 320px) {
+    .para1 {
+      width: 100%;
+    }
   }
 }
 </style>

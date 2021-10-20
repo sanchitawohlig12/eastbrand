@@ -74,7 +74,7 @@ export default {}
 }
 .aboutcontent {
   display: flex;
-  margin-left: 170px;
+  margin-left: 140px;
   height: 100%;
   width: 80%;
   justify-content: center;
@@ -83,6 +83,13 @@ export default {}
   .aboutcontent {
     margin-left: 20px;
     /* margin-right: 40px; */
+    width: 90%;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .aboutcontent {
+    margin-left: 40px;
+
     width: 90%;
   }
 }

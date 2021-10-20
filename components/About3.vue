@@ -95,7 +95,7 @@
             <img class="logo" src="/services/ACE.svg" alt="" />
             <br />
 
-            <p>
+            <p class="acepara1">
               Our vision was to create a vast unparalleled monopoly of luxurious
               companies, so as we could provide a full suite of development
               services to cater for all of our clienteles pacific needs.
@@ -156,7 +156,7 @@
                 <v-icon style="color: orange">mdi-map-marker</v-icon>
 
                 Ace Worldwide Limited,6 Roedean Avenue,<br />
-                <span style="padding-left: 7%">Enfield, EN3 5QJ</span>
+                <span class="break">Enfield, EN3 5QJ</span>
               </div>
               <div class="office">
                 <v-icon style="color: orange">mdi-phone</v-icon>
@@ -254,6 +254,13 @@ a.nuxt-link {
 @media (max-width: 991px) {
   .logo {
     margin-left: -50px;
+  }
+}
+@media (max-width: 320px) {
+  .acepara1 {
+    padding-right: 20px;
+    /* width: 50px; */
+    width: 110%;
   }
 }
 </style>

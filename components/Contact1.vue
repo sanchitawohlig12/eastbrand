@@ -72,19 +72,18 @@
     </v-row>
     <v-row>
       <v-col cols="12" md="12">
-        <div v-if="$vuetify.breakpoint.smAndDown">
+        <!-- <div v-if="$vuetify.breakpoint.smAndDown">
           <iframe
             class="iframe"
             src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2474.8150359827437!2d-0.05097705017130872!3d51.66322280702139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sAce%20Worldwide%20Limited%2C6%20Roedean%20Avenue%2CEnfield%2CEN3%205QJ!5e0!3m2!1sen!2sin!4v1634381439182!5m2!1sen!2sin"
-            width="393"
-            height="440"
             style="border: 0"
             allowfullscreen=""
             loading="lazy"
           ></iframe>
-        </div>
-        <div v-if="!$vuetify.breakpoint.smAndDown">
+        </div> -->
+        <div>
           <iframe
+            class="iframe1"
             src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2474.8152177250035!2d-0.05097168422428488!3d51.66321947966109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sAce%20Worldwide%20Limited%2C6%20Roedean%20Avenue%2CEnfield%2CEN3%205QJ!5e0!3m2!1sen!2sin!4v1634531087344!5m2!1sen!2sin"
             width="100%"
             height="450px"
@@ -125,6 +124,27 @@ export default {}
   }
   .office1 {
     text-align: left;
+  }
+  /* .iframe {
+    width: 500px;
+    height: 440px;
+  } */
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .aboutcontent {
+    margin-left: 40px;
+
+    width: 90%;
+  }
+  .iframe {
+    width: 900px;
+    height: 440px;
+  }
+}
+@media (max-width: 991px) {
+  .iframe {
+    width: 380px;
+    height: 500px;
   }
 }
 /* .iframe {

@@ -1,12 +1,12 @@
 <template>
   <div style="background-color: black">
     <div v-if="!$vuetify.breakpoint.smAndDown">
-      <img class="home" src="/kitchen/onedesk.jpg" alt="" />
+      <img class="home1" src="/kitchen/onedesk.jpg" alt="" />
     </div>
     <div v-if="$vuetify.breakpoint.smAndDown">
-      <img class="" src="/kitchen/onemob.jpg" alt="" />
+      <img class="home1" src="/kitchen/onemob.jpg" alt="" />
     </div>
-    <div class="besdev">
+    <div class="beskit">
       <br />
       <p class="">
         Ace Worldwide Limited specialise in the creation of exquisite
@@ -17,13 +17,13 @@
       <br />
     </div>
     <div v-if="!$vuetify.breakpoint.smAndDown">
-      <img class="home" src="/kitchen/twodesk.jpg" alt="" />
+      <img class="home1" src="/kitchen/twodesk.jpg" alt="" />
     </div>
     <div v-if="$vuetify.breakpoint.smAndDown">
-      <img class="" src="/kitchen/twomob.jpg" alt="" />
+      <img class="home1" src="/kitchen/twomob.jpg" alt="" />
     </div>
 
-    <div class="besdev">
+    <div class="beskit">
       <br />
       <p class="">
         We provide for the Luxury development sector, and due to our extensive
@@ -44,7 +44,7 @@ export default {}
 </script>
 
 <style>
-.besdev {
+.beskit {
   height: 40%;
   width: 60%;
   background-color: black;
@@ -54,20 +54,25 @@ export default {}
   text-align: center;
 }
 @media (max-width: 991px) {
-  .besdev {
+  .beskit {
     height: 40%;
-    width: 60%;
+    width: 90%;
     background-color: black;
     color: orange;
     font-size: 20px;
-    margin-left: 1%;
+    margin-left: 5%;
   }
 }
 @media (max-width: 991px) {
-  .besdev {
+  .beskit {
     text-align: justify;
     padding-left: 3%;
     padding-right: 3%;
+  }
+}
+@media (max-width: 320px) {
+  .beskit {
+    margin-left: 5%;
   }
 }
 </style>
