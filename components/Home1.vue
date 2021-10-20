@@ -121,7 +121,7 @@ export default {}
   background-color: white;
   width: 300px;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 15px;
   text-align: center;
 }
 .sub-title-mob1 {
@@ -131,7 +131,7 @@ export default {}
   background-color: white;
   width: 220px;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 15px;
   text-align: center;
 }
 .one {
