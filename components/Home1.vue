@@ -117,9 +117,9 @@ export default {}
 .sub-title-mob {
   position: relative;
   bottom: 280px;
-  left: 24%;
+  left: 14%;
   background-color: white;
-  width: 220px;
+  width: 300px;
   font-weight: bold;
   font-size: 20px;
   text-align: center;
@@ -127,9 +127,9 @@ export default {}
 .sub-title-mob1 {
   position: relative;
   bottom: 280px;
-  left: 28%;
+  left: 23%;
   background-color: white;
-  width: 180px;
+  width: 220px;
   font-weight: bold;
   font-size: 20px;
   text-align: center;
@@ -225,12 +225,12 @@ export default {}
   }
   .sub-title-mob {
     position: relative;
-    left: 14%;
+    left: 3%;
     bottom: 280px;
   }
   .sub-title-mob1 {
     position: relative;
-    left: 19%;
+    left: 15%;
     bottom: 280px;
   }
 }
@@ -242,12 +242,12 @@ export default {}
   }
   .sub-title-mob {
     position: relative;
-    left: 37%;
+    left: 33%;
     bottom: 280px;
   }
   .sub-title-mob1 {
     position: relative;
-    left: 40%;
+    left: 37%;
     bottom: 280px;
   }
 }
