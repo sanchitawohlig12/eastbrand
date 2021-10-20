@@ -146,6 +146,9 @@ export default {}
     width: 380px;
     height: 500px;
   }
+  .Office {
+    padding-left: 10px;
+  }
 }
 /* .iframe {
   height: 500%;

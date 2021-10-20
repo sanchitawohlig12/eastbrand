@@ -121,7 +121,7 @@ export default {}
   background-color: white;
   width: 300px;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 18px;
   text-align: center;
 }
 .sub-title-mob1 {
@@ -131,7 +131,7 @@ export default {}
   background-color: white;
   width: 220px;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 18px;
   text-align: center;
 }
 .one {
@@ -190,7 +190,7 @@ export default {}
 .one1 {
   position: relative;
   left: 35%;
-  bottom: 200px;
+  bottom: 100px;
 }
 .title1 {
   /* position: relative;
@@ -221,7 +221,7 @@ export default {}
   .one1 {
     position: relative;
     left: 25%;
-    bottom: 200px;
+    bottom: 100px;
   }
   .sub-title-mob {
     position: relative;
@@ -230,7 +230,7 @@ export default {}
   }
   .sub-title-mob1 {
     position: relative;
-    left: 15%;
+    left: 18%;
     bottom: 280px;
   }
 }
@@ -238,7 +238,7 @@ export default {}
   .one1 {
     position: relative;
     left: 43%;
-    bottom: 200px;
+    bottom: 100px;
   }
   .sub-title-mob {
     position: relative;
