@@ -62,7 +62,9 @@
               <nuxt-link style="text-decoration: none" to="/besdev"
                 ><v-btn class="one1">Read More</v-btn></nuxt-link
               >
-              <span class="title7">Bespoke Developments</span>
+              <div class="sub-title-mob">
+                <span>Bespoke Developments</span>
+              </div>
             </div>
           </v-col>
           <v-col cols="12" md="6">
@@ -71,7 +73,7 @@
               <nuxt-link style="text-decoration: none" to="/bescon"
                 ><v-btn class="one1">Read More</v-btn></nuxt-link
               >
-              <span class="title7">Bespoke Construction</span>
+              <div class="sub-title-mob"><span>Bespoke Construction</span></div>
             </div>
           </v-col>
         </v-row>
@@ -82,7 +84,9 @@
               <nuxt-link style="text-decoration: none" to="/besint">
                 <v-btn class="one1">Read More</v-btn></nuxt-link
               >
-              <span class="title1">Bespoke Interiors</span>
+              <div class="sub-title-mob1">
+                <span>Bespoke Interiors</span>
+              </div>
             </div>
           </v-col>
           <v-col cols="12" md="6">
@@ -91,7 +95,9 @@
               <nuxt-link style="text-decoration: none" to="/besher">
                 <v-btn class="one1"> Read More</v-btn></nuxt-link
               >
-              <span class="title1">Bespoke Heritage</span>
+              <div class="sub-title-mob1">
+                <span>Bespoke Heritage</span>
+              </div>
             </div>
           </v-col></v-row
         >
@@ -108,6 +114,26 @@ export default {}
 </script>
 
 <style>
+.sub-title-mob {
+  position: relative;
+  bottom: 280px;
+  left: 24%;
+  background-color: white;
+  width: 220px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+.sub-title-mob1 {
+  position: relative;
+  bottom: 280px;
+  left: 28%;
+  background-color: white;
+  width: 180px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
 .one {
   position: relative;
   left: 40%;
@@ -120,7 +146,7 @@ export default {}
   bottom: 300px;
   font-size: 25px;
   color: black;
-  text-shadow: 2px 2px white;
+  /* text-shadow: 2px 2px white; */
   font-weight: bold;
   background-color: white;
 
@@ -132,7 +158,7 @@ export default {}
   bottom: 300px;
   font-size: 25px;
   color: black;
-  text-shadow: 2px 2px white;
+  /* text-shadow: 2px 2px white; */
   font-weight: bold;
   background-color: white;
 }
@@ -143,7 +169,7 @@ export default {}
   bottom: 335px;
   font-size: 25px;
   color: black;
-  text-shadow: 4px 4px white;
+  /* text-shadow: 4px 4px white; */
   font-weight: bold;
   background-color: white;
 }
@@ -167,7 +193,7 @@ export default {}
   bottom: 200px;
 }
 .title1 {
-  position: relative;
+  /* position: relative;
   left: -2%;
   bottom: 250px;
   font-size: 20px;
@@ -176,10 +202,10 @@ export default {}
   font-weight: bold;
   background-color: white;
 
-  /* background-image: linear-gradient(orange, orange); */
+  background-image: linear-gradient(orange, orange); */
 }
 .title7 {
-  position: relative;
+  /* position: relative;
   left: -7%;
   bottom: 250px;
   font-size: 20px;
@@ -188,23 +214,24 @@ export default {}
   font-weight: bold;
   background-color: white;
 
-  /* background-image: linear-gradient(orange, orange); */
+  background-image: linear-gradient(orange, orange); */
 }
+
 @media (max-width: 320px) {
   .one1 {
     position: relative;
     left: 25%;
     bottom: 200px;
   }
-  .title7 {
+  .sub-title-mob {
     position: relative;
-    left: -17%;
-    bottom: 250px;
+    left: 14%;
+    bottom: 280px;
   }
-  .title1 {
+  .sub-title-mob1 {
     position: relative;
-    left: -12%;
-    bottom: 250px;
+    left: 19%;
+    bottom: 280px;
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
@@ -213,15 +240,15 @@ export default {}
     left: 43%;
     bottom: 200px;
   }
-  .title7 {
+  .sub-title-mob {
     position: relative;
-    left: 20%;
-    bottom: 250px;
+    left: 37%;
+    bottom: 280px;
   }
-  .title1 {
+  .sub-title-mob1 {
     position: relative;
-    left: 23%;
-    bottom: 250px;
+    left: 40%;
+    bottom: 280px;
   }
 }
 /* @media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {

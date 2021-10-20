@@ -81,7 +81,9 @@
               <nuxt-link style="text-decoration: none" to="/besdev"
                 ><v-btn class="one1">Read More</v-btn></nuxt-link
               >
-              <span class="title7">Bespoke Developments</span>
+              <div class="sub-title-mob">
+                <span>Bespoke Developments</span>
+              </div>
             </div>
           </v-col>
           <v-col cols="12" md="6">
@@ -90,7 +92,9 @@
               <nuxt-link style="text-decoration: none" to="/bescon"
                 ><v-btn class="one1">Read More</v-btn></nuxt-link
               >
-              <span class="title7">Bespoke Construction </span>
+              <div class="sub-title-mob">
+                <span>Bespoke Construction </span>
+              </div>
             </div>
           </v-col>
         </v-row>
@@ -102,7 +106,9 @@
               <nuxt-link style="text-decoration: none" to="/besint"
                 ><v-btn class="one1">Read More</v-btn></nuxt-link
               >
-              <span class="title4">Bespoke Interiors</span>
+              <div class="sub-title-mob1">
+                <span>Bespoke Interiors</span>
+              </div>
             </div>
           </v-col>
           <v-col cols="12" md="6">
@@ -111,7 +117,9 @@
               <nuxt-link style="text-decoration: none" to="/besher"
                 ><v-btn class="one1">Read More</v-btn></nuxt-link
               >
-              <span class="title4">Bespoke Heritage</span>
+              <div class="sub-title-mob1">
+                <span>Bespoke Heritage</span>
+              </div>
             </div>
           </v-col>
         </v-row>
@@ -122,7 +130,9 @@
               <nuxt-link style="text-decoration: none" to="/beskit">
                 <v-btn class="one1">Read More</v-btn></nuxt-link
               >
-              <span class="title4">Bespoke Kitchen</span>
+              <div class="sub-title-mob1">
+                <span>Bespoke Kitchen</span>
+              </div>
             </div>
           </v-col>
           <v-col cols="12" md="6">
@@ -131,7 +141,9 @@
               <nuxt-link style="text-decoration: none" to="/besbat">
                 <v-btn class="one1">Read More</v-btn></nuxt-link
               >
-              <span class="title4">Bespoke Bathroom</span>
+              <div class="sub-title-mob1">
+                <span>Bespoke Bathroom</span>
+              </div>
             </div>
           </v-col>
         </v-row>
